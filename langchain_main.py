@@ -1,7 +1,7 @@
 from langchain.document_loaders import YoutubeLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.embeddings.openai import OpenAIEmbeddings
-from langchain.vectorstores import Chroma
+from langchain.vectorstores import FAISS
 from langchain.chat_models import ChatOpenAI
 from langchain.chains import LLMChain
 from langchain.prompts.chat import ChatPromptTemplate, SystemMessagePromptTemplate, HumanMessagePromptTemplate
@@ -23,7 +23,7 @@ def creating_db(video_url, embeddings):
     when a user asks a question, this database will be used to perform the similarity search and
     generate output based on that
     '''
-    db=Chroma.from_documents(docs, embedding=embeddings)
+    db=FAISS.from_documents(docs, embedding=embeddings)
 
     return db
 
