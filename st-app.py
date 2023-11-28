@@ -11,8 +11,10 @@ openai_api_key=''
 st.set_page_config(page_title='🦜🔗 LLM based YouTube QA Assistant')
 st.title('🦜🔗 LLM based YouTube QA Assistant')
 
+with st.sidebar:
+    openai_api_key = st.text_input('OpenAI API Key', type='password')
+    "[Get an OpenAI API key](https://platform.openai.com/account/api-keys)"
 
-openai_api_key = st.sidebar.text_input('OpenAI API Key', type='password')
 
 with st.form('my_form', clear_on_submit=False):
   # YouTube video url
