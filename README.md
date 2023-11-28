@@ -9,7 +9,7 @@ Thank you for your interest in this app. Please be aware that this is only a **P
 
 🎲 The primary use case for this app is to assist users in answering questions based on the YouTube Video content. Additionally, this use case is relatively harmless, even in cases where the model may experience hallucinations.
 
-🌐 The app can be accessed on the Streamlit Community Cloud at [https://ask-my-pdf.streamlit.app/](https://question-youtube-video.streamlit.app/). 🔑 However, to use the app, you will need your own [OpenAI's API key](https://platform.openai.com/account/api-keys).
+🌐 The app can be accessed on the Streamlit Community Cloud at [https://question-youtube-video.streamlit.app/](https://question-youtube-video.streamlit.app/). 🔑 However, to use the app, you will need your own [OpenAI's API key](https://platform.openai.com/account/api-keys).
 
 
 ### Installation
