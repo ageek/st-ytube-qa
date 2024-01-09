@@ -1,10 +1,10 @@
-# Ask YouTube Video
+# Query YouTube Video
 Langchain, OpenAI API, LLM based App to answer user questions based on given YouTube content
 
 Thank you for your interest in this app. Please be aware that this is only a **Proof of Concept system** and may contain bugs or unfinished features. 
 
 
-### Question YouTube Video - Question answering system built on top of GPT-3.5-turbo
+### Query YouTube Video - Question answering system built on top of GPT-3.5-turbo
 
 
 🎲 The primary use case for this app is to assist users in answering questions based on the YouTube Video content. Additionally, this use case is relatively harmless, even in cases where the model may experience hallucinations.
